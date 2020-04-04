@@ -16,7 +16,6 @@ obj
 *.pidb
 *.suo
 *.sln
-*.user
 *.unityproj
 *.booproj
 
@@ -53,10 +52,9 @@ fmod.log
 fmod_editor.log
 
 # FMOD studio (In folder FMOD)
-FMOD/**.user
-FMOD/**.unsaved
-FMOD/**.cache
-FMOD/**.restore
+**/FMOD/**.unsaved
+**/FMOD/**.cache
+**/FMOD/**.restore
 
 # Custom
 Builds
