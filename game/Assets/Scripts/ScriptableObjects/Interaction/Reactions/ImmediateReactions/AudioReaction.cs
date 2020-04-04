@@ -5,15 +5,30 @@
 // rather than an DelayedReaction.
 public class AudioReaction : Reaction
 {
-    public AudioSource audioSource;     // The AudioSource to play the clip.
-    public AudioClip audioClip;         // The AudioClip to be played.
-    public float delay;                 // How long after React is called before the clip plays.
 
+    [FMODUnity.EventRef]
+    public string eventPath;
+    public bool setParameter = false;
+    public string parameter;
+    public float parameterValue;
+    FMOD.Studio.EventInstance eventInstance;
 
     protected override void ImmediateReaction()
     {
-        // Set the AudioSource's clip to the given one and play with the given delay.
-        audioSource.clip = audioClip;
-        audioSource.PlayDelayed(delay);
+        if (string.IsNullOrEmpty(eventPath))
+        {
+            return;
+        }
+        eventInstance = FMODUnity.RuntimeManager.CreateInstance(eventPath);
+        if (!eventInstance.isValid())
+        {
+            return;
+        }
+        if (setParameter)
+        {
+            eventInstance.setParameterByName(parameter, parameterValue);
+        }
+
+        eventInstance.start();
     }
 }

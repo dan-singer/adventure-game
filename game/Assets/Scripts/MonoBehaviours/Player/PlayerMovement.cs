@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float slowingSpeed = 0.175f;         // The speed the player moves as it reaches close to it's destination.
     public float turnSpeedThreshold = 0.5f;     // The speed beyond which the player can move and turn normally.
     public float inputHoldDelay = 0.5f;         // How long after reaching an interactable before input is allowed again.
-    
+    public FootstepManager footstepManager;
 
     private Interactable currentInteractable;   // The interactable that is currently being headed towards.
     private Vector3 destinationPosition;        // The position that is currently being headed towards, this is the interactionLocation of the currentInteractable if it is not null.
@@ -56,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
 
         // Set the initial destination as the player's current position.
         destinationPosition = transform.position;
+
+        footstepManager = GetComponent<FootstepManager>();
     }
 
 
@@ -115,6 +117,8 @@ public class PlayerMovement : MonoBehaviour
             // Start the WaitForInteraction coroutine so that input is ignored briefly.
             StartCoroutine (WaitForInteraction ());
         }
+
+        footstepManager.StopFootstepAudio();
     }
 
 
@@ -149,6 +153,8 @@ public class PlayerMovement : MonoBehaviour
 
         // Interpolate the player's rotation towards the target rotation.
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnSmoothing * Time.deltaTime);
+
+        footstepManager.LoopFootstepAudio();
     }
 
 
