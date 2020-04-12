@@ -844,7 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/CollectFish
+  eventPath: event:/Effects/CollectFish
   setParameter: 0
   parameter: 
   parameterValue: 0
@@ -1680,7 +1680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/CollectCoffee
+  eventPath: event:/Effects/CollectCoffee
   setParameter: 0
   parameter: 
   parameterValue: 0
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/CollectCoin
+  eventPath: event:/Effects/CollectCoin
   setParameter: 0
   parameter: 
   parameterValue: 0
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Argument
+  Event: event:/Dialogue/Argument
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Snoring
+  Event: event:/Dialogue/Snoring
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -4458,7 +4458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/Bird
+  eventPath: event:/Effects/Bird
   setParameter: 0
   parameter: 
   parameterValue: 0
@@ -4656,7 +4656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/MarketAmbience
+  Event: event:/Ambience/MarketAmbience
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -4693,7 +4693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/MarketMusic
+  Event: event:/Music/MarketMusic
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1

@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/Win
+  eventPath: event:/Effects/Win
   setParameter: 0
   parameter: 
   parameterValue: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/DialogueAppear
+  eventPath: event:/Interface/DialogueAppear
   setParameter: 1
   parameter: DialogueAppear
   parameterValue: 0
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SecurityRoomAmbience
+  Event: event:/Ambience/SecurityRoomAmbience
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/DialogueAppear
+  eventPath: event:/Interface/DialogueAppear
   setParameter: 1
   parameter: DialogueType
   parameterValue: 1
@@ -678,7 +678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/DialogueAppear
+  eventPath: event:/Interface/DialogueAppear
   setParameter: 1
   parameter: DialogueType
   parameterValue: 1

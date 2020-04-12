@@ -2727,7 +2727,7 @@ MonoBehaviour:
   turnSpeedThreshold: 0.5
   inputHoldDelay: 0.5
   footstepManager: {fileID: 9060198037614990571}
-  clickEventPath: event:/GroundClick
+  clickEventPath: event:/Interface/GroundClick
 --- !u!114 &114000014274399210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2755,7 +2755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ee0656c35d48741a0a77cdecd82ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/Footsteps
+  eventPath: event:/Effects/Footsteps
   footRadius: 0.5
   footOrigin: {fileID: 244977265}
 --- !u!54 &1301743266364234022
