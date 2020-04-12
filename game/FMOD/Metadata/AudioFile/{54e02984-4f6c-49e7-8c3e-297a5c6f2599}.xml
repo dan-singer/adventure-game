@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{54e02984-4f6c-49e7-8c3e-297a5c6f2599}">
+		<property name="assetPath">
+			<value>from-gdc-2019/guitar_ac_fx_006.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.6756666666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52648b4f-6e6b-4d24-ad8f-d012c8ab4053}</destination>
+		</relationship>
+	</object>
+</objects>

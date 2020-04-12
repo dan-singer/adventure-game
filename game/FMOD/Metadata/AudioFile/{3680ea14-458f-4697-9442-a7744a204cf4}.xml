@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3680ea14-458f-4697-9442-a7744a204cf4}">
+		<property name="assetPath">
+			<value>output/bird1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.24825396825396825</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52648b4f-6e6b-4d24-ad8f-d012c8ab4053}</destination>
+		</relationship>
+	</object>
+</objects>

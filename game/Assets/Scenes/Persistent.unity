@@ -349,6 +349,7 @@ MonoBehaviour:
   startingSceneName: SecurityRoom
   initialStartingPositionName: DoorToMarket
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
+  audioEventPath: event:/SceneTransition
 --- !u!4 &353158847
 Transform:
   m_ObjectHideFlags: 0

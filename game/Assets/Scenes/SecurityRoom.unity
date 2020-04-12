@@ -135,10 +135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: 
+  eventPath: event:/Win
   setParameter: 0
   parameter: 
   parameterValue: 0
+  owner: {fileID: 0}
 --- !u!114 &25289150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +156,7 @@ MonoBehaviour:
   setParameter: 1
   parameter: DialogueAppear
   parameterValue: 0
+  owner: {fileID: 0}
 --- !u!1001 &65161318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,6 +314,7 @@ MonoBehaviour:
   setParameter: 0
   parameter: 
   parameterValue: 0
+  owner: {fileID: 0}
 --- !u!114 &227469776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,6 +346,7 @@ MonoBehaviour:
   setParameter: 0
   parameter: 
   parameterValue: 0
+  owner: {fileID: 0}
 --- !u!1 &285109962
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +537,7 @@ MonoBehaviour:
   setParameter: 0
   parameter: 
   parameterValue: 0
+  owner: {fileID: 0}
 --- !u!114 &669618034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,6 +621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundMarker (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8712864446055756058, guid: 9a6bd9daa9ae08640960aa88b6ffdba4,
+        type: 3}
+      propertyPath: groundType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6bd9daa9ae08640960aa88b6ffdba4, type: 3}
 --- !u!4 &679028113 stripped
@@ -640,6 +650,7 @@ MonoBehaviour:
   setParameter: 1
   parameter: DialogueType
   parameterValue: 1
+  owner: {fileID: 0}
 --- !u!114 &693356648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -671,6 +682,7 @@ MonoBehaviour:
   setParameter: 1
   parameter: DialogueType
   parameterValue: 1
+  owner: {fileID: 0}
 --- !u!114 &795348259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,6 +729,7 @@ MonoBehaviour:
   setParameter: 0
   parameter: 
   parameterValue: 0
+  owner: {fileID: 0}
 --- !u!4 &837583949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8712864446055756038, guid: 9a6bd9daa9ae08640960aa88b6ffdba4,
@@ -2223,6 +2236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GroundMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712864446055756058, guid: 9a6bd9daa9ae08640960aa88b6ffdba4,
+        type: 3}
+      propertyPath: groundType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6bd9daa9ae08640960aa88b6ffdba4, type: 3}

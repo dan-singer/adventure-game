@@ -9,20 +9,19 @@ public class FootstepManager : MonoBehaviour
     {
         Carpet = 0,
         Metal,
-        Dirt
+        Dirt,
+        Stopped
     }
 
     [FMODUnity.EventRef]
     public string eventPath;
-    public float timeBetweenSteps = 0.43f;
     public float footRadius = 2.0f;
     public Transform footOrigin;
 
 
     FMOD.Studio.EventInstance eventInstance;
     readonly string GROUND_TYPE_PARAM = "GroundType";
-    float timer = 0.0f;
-
+    bool checkGroundType = false;
     
 
 
@@ -30,35 +29,42 @@ public class FootstepManager : MonoBehaviour
     void Start()
     {
         eventInstance = FMODUnity.RuntimeManager.CreateInstance(eventPath);
+        eventInstance.start();
+        StopFootstepAudio();
     }
 
-    public void LoopFootstepAudio()
+    public void StartFootstepAudio()
     {
-        Collider[] colliders = Physics.OverlapSphere(footOrigin.position, footRadius);
-        foreach (var collider in colliders)
-        {
-            var ground = collider.transform.GetComponent<Ground>();
-            if (ground)
-            {
-                eventInstance.setParameterByName(GROUND_TYPE_PARAM, (float)ground.groundType);
-                break;
-            }
-        }
-        if (timer > timeBetweenSteps)
-        {
-            eventInstance.start();
-            timer = 0.0f;
-        }
-        timer += Time.deltaTime;
+        checkGroundType = true;
     }
 
     public void StopFootstepAudio()
     {
-        timer = 0.0f;
+        checkGroundType = false;
+        eventInstance.setParameterByName(GROUND_TYPE_PARAM, (float)GroundType.Stopped);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (checkGroundType)
+        {
+            Collider[] colliders = Physics.OverlapSphere(footOrigin.position, footRadius);
+            foreach (var collider in colliders)
+            {
+                var ground = collider.transform.GetComponent<Ground>();
+                if (ground)
+                {
+                    float curGroundType;
+                    eventInstance.getParameterByName(GROUND_TYPE_PARAM, out curGroundType);
+                    if ((float)ground.groundType != curGroundType)
+                    {
+                        eventInstance.setParameterByName(GROUND_TYPE_PARAM, (float)ground.groundType);
+                        eventInstance.getParameterByName(GROUND_TYPE_PARAM, out curGroundType);
+                    }
+                    break;
+                }
+            }
+        }
     }
 }

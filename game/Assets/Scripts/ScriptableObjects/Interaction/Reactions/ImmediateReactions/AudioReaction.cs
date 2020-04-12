@@ -11,6 +11,7 @@ public class AudioReaction : Reaction
     public bool setParameter = false;
     public string parameter;
     public float parameterValue;
+    public Transform owner;
     FMOD.Studio.EventInstance eventInstance;
 
     protected override void ImmediateReaction()
@@ -27,6 +28,10 @@ public class AudioReaction : Reaction
         if (setParameter)
         {
             eventInstance.setParameterByName(parameter, parameterValue);
+        }
+        if (owner != null)
+        {
+            FMODUnity.RuntimeManager.AttachInstanceToGameObject(eventInstance, owner, owner.GetComponent<Rigidbody>());
         }
 
         eventInstance.start();

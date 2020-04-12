@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f1e34f96-166e-4534-94ac-6d426e36f8f4}">
+		<property name="assetPath">
+			<value>from-fl-studio/market-A.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7272789115646265</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52648b4f-6e6b-4d24-ad8f-d012c8ab4053}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -22,7 +22,10 @@ public class SceneController : MonoBehaviour
     public string initialStartingPositionName = "DoorToMarket";
                                                     // The name of the StartingPosition in the first scene to be loaded.
     public SaveData playerSaveData;                 // Reference to the ScriptableObject which stores the name of the StartingPosition in the next scene.
-    
+
+
+    [FMODUnity.EventRef]
+    public string audioEventPath;
     
     private bool isFading;                          // Flag used to determine if the Image is currently fading to or from black.
 
@@ -50,7 +53,8 @@ public class SceneController : MonoBehaviour
         // If a fade isn't happening then start fading and switching scenes.
         if (!isFading)
         {
-            StartCoroutine (FadeAndSwitchScenes (sceneReaction.sceneName));
+            FMODUnity.RuntimeManager.PlayOneShot(audioEventPath);
+            StartCoroutine(FadeAndSwitchScenes (sceneReaction.sceneName));
         }
     }
 

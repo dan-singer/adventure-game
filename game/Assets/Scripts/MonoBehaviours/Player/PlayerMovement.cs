@@ -5,6 +5,13 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
+    enum ClickType
+    {
+        Ground = 0,
+        Interactable
+    }
+
+
     public Animator animator;                   // Reference to the animator component.
     public NavMeshAgent agent;                  // Reference to the nav mesh agent component.
     public SaveData playerSaveData;             // Reference to the save data asset containing the player's starting position.
@@ -14,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public float turnSpeedThreshold = 0.5f;     // The speed beyond which the player can move and turn normally.
     public float inputHoldDelay = 0.5f;         // How long after reaching an interactable before input is allowed again.
     public FootstepManager footstepManager;
+    [FMODUnity.EventRef]
+    public string clickEventPath;
 
     private Interactable currentInteractable;   // The interactable that is currently being headed towards.
     private Vector3 destinationPosition;        // The position that is currently being headed towards, this is the interactionLocation of the currentInteractable if it is not null.
@@ -34,8 +43,11 @@ public class PlayerMovement : MonoBehaviour
     private const float stopDistanceProportion = 0.1f;
                                                 // The proportion of the nav mesh agent's stopping distance within which the player stops completely.
     private const float navMeshSampleDistance = 4f;
-                                                // The maximum distance from the nav mesh a click can be to be accepted.
+    // The maximum distance from the nav mesh a click can be to be accepted.
 
+    private FMOD.Studio.EventInstance clickEventInstance;
+
+    private readonly string CLICK_TYPE_PARAM = "ClickType";
 
     private void Start()
     {
@@ -58,6 +70,8 @@ public class PlayerMovement : MonoBehaviour
         destinationPosition = transform.position;
 
         footstepManager = GetComponent<FootstepManager>();
+        clickEventInstance = FMODUnity.RuntimeManager.CreateInstance(clickEventPath);
+
     }
 
 
@@ -153,8 +167,6 @@ public class PlayerMovement : MonoBehaviour
 
         // Interpolate the player's rotation towards the target rotation.
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnSmoothing * Time.deltaTime);
-
-        footstepManager.LoopFootstepAudio();
     }
 
 
@@ -182,6 +194,10 @@ public class PlayerMovement : MonoBehaviour
         // Set the destination of the nav mesh agent to the found destination position and start the nav mesh agent going.
         agent.SetDestination(destinationPosition);
         agent.isStopped = false;
+        footstepManager.StartFootstepAudio();
+
+        clickEventInstance.setParameterByName(CLICK_TYPE_PARAM, (float)ClickType.Ground);
+        clickEventInstance.start();
     }
 
 
@@ -201,6 +217,10 @@ public class PlayerMovement : MonoBehaviour
         // Set the destination of the nav mesh agent to the found destination position and start the nav mesh agent going.
         agent.SetDestination(destinationPosition);
         agent.isStopped = false;
+
+
+        clickEventInstance.setParameterByName(CLICK_TYPE_PARAM, (float)ClickType.Interactable);
+        clickEventInstance.start();
     }
 
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{87e4d059-315b-486a-8ad1-4ce37cf3a66e}">
+		<property name="name">
+			<value>MarketMood</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0841955a-2e4c-498f-b080-8d131c781632}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bbb0a9cc-399e-46c5-ad28-39706581d8e8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bbb0a9cc-399e-46c5-ad28-39706581d8e8}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Busy</value>
+			<value>Relaxed</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
