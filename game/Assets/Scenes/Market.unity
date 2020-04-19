@@ -1116,6 +1116,23 @@ MonoBehaviour:
   requiredConditions:
   - {fileID: 1999503990}
   reactionCollection: {fileID: 773705719}
+--- !u!114 &469336988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventPath: event:/Effects/CollectCoffee
+  setParameter: 0
+  parameter: 
+  parameterValue: 0
+  owner: {fileID: 0}
 --- !u!114 &493698176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1668,23 +1685,6 @@ MonoBehaviour:
   description: HasCoin
   satisfied: 1
   hash: 1129137663
---- !u!114 &938471497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventPath: event:/Effects/CollectCoffee
-  setParameter: 0
-  parameter: 
-  parameterValue: 0
-  owner: {fileID: 1305990739}
 --- !u!114 &964840749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3472,11 +3472,11 @@ PrefabInstance:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 3}
       propertyPath: reactions.Array.data[0]
       value: 
-      objectReference: {fileID: 938471497}
+      objectReference: {fileID: 11543072}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 3}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 11543072}
+      objectReference: {fileID: 469336988}
     - target: {fileID: 11470894, guid: d48734bd22479a14cb1a52b40aa09db4, type: 3}
       propertyPath: conditions.Array.size
       value: 1
@@ -4425,11 +4425,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: 
+  eventPath: event:/Effects/CollectCoffee
   setParameter: 0
   parameter: 
   parameterValue: 0
-  owner: {fileID: 0}
+  owner: {fileID: 1305990739}
 --- !u!114 &1743308727
 MonoBehaviour:
   m_ObjectHideFlags: 0

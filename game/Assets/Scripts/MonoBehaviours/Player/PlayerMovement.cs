@@ -218,6 +218,8 @@ public class PlayerMovement : MonoBehaviour
         agent.SetDestination(destinationPosition);
         agent.isStopped = false;
 
+        footstepManager.StartFootstepAudio();
+
 
         clickEventInstance.setParameterByName(CLICK_TYPE_PARAM, (float)ClickType.Interactable);
         clickEventInstance.start();

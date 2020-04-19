@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.03/x64" 1586542890
+<REAPER_PROJECT 0.1 "6.03/x64" 1587318664
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 0 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0.07290853951384
-  ZOOM 260.60047460412483 0 0
+  CURSOR 0.42416930718786
+  ZOOM 516.30326921086498 0 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
@@ -32,10 +32,10 @@
   RENDER_PATTERN $track
   RENDER_FMT 0 2 44100
   RENDER_1X 0
-  RENDER_RANGE 4 0 0 0 1000
+  RENDER_RANGE 1 0 0 0 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
-  RENDER_STEMS 32
+  RENDER_STEMS 3
   RENDER_DITHER 0
   TIMELOCKMODE 1
   TEMPOENVLOCKMODE 1
@@ -58,8 +58,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 12.23614829373289
-  SELECTION2 0 12.23614829373289
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -419,29 +419,54 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 1.31033333333333
+      LENGTH 0.94599629641881
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0
       FADEOUT 1 0.01 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {D0DB32C5-76D7-42EA-9527-F3C7F5DA909E}
-      IID 16
-      NAME button_002.wav
+      IGUID {4AB3F4D4-BEA0-4063-B6D1-CA0B12889659}
+      IID 112
+      NAME Select_heavy_complex_hi-tech_tone_01.wav
       VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
+      SOFFS 0.23445441352166
+      PLAYRATE 2 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {25B656E7-E9C6-4BDC-A67D-3F5D8E5EBAEB}
+      GUID {CB4424D1-C9EA-4F3A-97E1-DE8AE3A40315}
       <SOURCE WAVE
-        FILE "samples\button_002.wav"
+        FILE "samples\Select_heavy_complex_hi-tech_tone_01.wav"
       >
     >
   >
   <TRACK {9B294900-425F-4293-9A30-19711C8E6A7F}
     NAME dialogue_negative
     PEAKCOL 33392821
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9B294900-425F-4293-9A30-19711C8E6A7F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {1B16D32D-0C95-468B-AF9A-796A95B0CA54}
+    NAME ""
+    PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
@@ -459,30 +484,121 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {9B294900-425F-4293-9A30-19711C8E6A7F}
+    TRACKID {1B16D32D-0C95-468B-AF9A-796A95B0CA54}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 1.31033333333334
+      LENGTH 0.17720391719661
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0
       FADEOUT 1 0.01 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {9CED4EBF-9339-421E-8E79-26D30D7B28EA}
-      IID 16
-      NAME button_002.wav
+      IGUID {6B62FFFF-1646-4BF9-91EE-6F3EA3F2FBCC}
+      IID 109
+      NAME Notification_alarm_subtle_signal_periodic_loop_01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C91E3268-DBBE-43B8-83A4-C7C20A341133}
+      <SOURCE WAVE
+        FILE "samples\Notification_alarm_subtle_signal_periodic_loop_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.18787407669965
+      SNAPOFFS 0
+      LENGTH 0.17720391719661
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FDC6071C-E265-421E-9542-80BAE7ADB42B}
+      IID 109
+      NAME Notification_alarm_subtle_signal_periodic_loop_01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE659B32-9F4D-40FA-8950-8E0371FF5D4D}
+      <SOURCE WAVE
+        FILE "samples\Notification_alarm_subtle_signal_periodic_loop_01.wav"
+      >
+    >
+  >
+  <TRACK {C6948BC8-48EE-4946-872C-30BDA15CA170}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C6948BC8-48EE-4946-872C-30BDA15CA170}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.17720391719661
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {40E6EA2F-4F9D-4F3F-977B-A23968887AA2}
+      IID 109
+      NAME Notification_alarm_subtle_signal_periodic_loop_01.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 -12 -1 0 0.0025
       CHANMODE 0
-      GUID {2C6EB161-4E51-4408-B7AC-233A705A9B37}
+      GUID {F385D0FF-8F64-426A-B661-6A58120325EF}
       <SOURCE WAVE
-        FILE "samples\button_002.wav"
+        FILE "samples\Notification_alarm_subtle_signal_periodic_loop_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.18787407669965
+      SNAPOFFS 0
+      LENGTH 0.17720391719661
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6DBEFDA1-B456-452B-9A75-935C5B4B11D9}
+      IID 109
+      NAME Notification_alarm_subtle_signal_periodic_loop_01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -12 -1 0 0.0025
+      CHANMODE 0
+      GUID {3EA460F4-7715-47E2-91D8-E71D2B964AB8}
+      <SOURCE WAVE
+        FILE "samples\Notification_alarm_subtle_signal_periodic_loop_01.wav"
       >
     >
   >
@@ -957,7 +1073,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0
@@ -977,7 +1093,7 @@
       FADEIN 1 0.01 0 1 0 0
       FADEOUT 1 0.01 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {2A168C4E-A325-4082-91DC-3CA209C7A685}
       IID 108
       NAME 348148__munyeca__grinding-beans-for-cold-brew-coffee.wav
