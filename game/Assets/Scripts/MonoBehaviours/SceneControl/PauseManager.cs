@@ -26,7 +26,7 @@ public class PauseManager : MonoBehaviour
             paused = !paused;
             if (paused)
             {
-                Time.timeScale = 0.1f;
+                Time.timeScale = 0f;
                 pauseEventInstance.start();
             }
             else

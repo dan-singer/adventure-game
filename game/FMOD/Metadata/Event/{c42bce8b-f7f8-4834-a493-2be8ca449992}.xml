@@ -5,7 +5,7 @@
 			<value>GlassesDrop</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e6fd22e5-6c6e-4c87-b3bc-d381a598ea50}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{5bcbf69f-9804-4e07-965a-e5ff669aa313}">
 		<relationship name="effects">
 			<destination>{7445672d-7b36-40d1-9754-f1c05c283f79}</destination>
-			<destination>{ae81cf44-09f5-426d-98ea-4a592cbd9a54}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{43d074ba-6f7f-4294-b276-25178f28fb64}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{15a1cc67-9c5b-4c30-acee-afa415865983}" />
 	<object class="MixerBusFader" id="{7445672d-7b36-40d1-9754-f1c05c283f79}" />
-	<object class="SpatialiserEffect" id="{ae81cf44-09f5-426d-98ea-4a592cbd9a54}" />
 	<object class="MixerBusFader" id="{2db6dff6-1dc8-4b22-a094-34eaec7b6efd}" />
 </objects>

@@ -310,10 +310,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: 
-  setParameter: 0
-  parameter: 
-  parameterValue: 0
+  eventPath: event:/Interface/DialogueAppear
+  setParameter: 1
+  parameter: DialogueType
+  parameterValue: 1
   owner: {fileID: 0}
 --- !u!114 &227469776
 MonoBehaviour:
@@ -521,23 +521,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 571157128}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &639733709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventPath: 
-  setParameter: 0
-  parameter: 
-  parameterValue: 0
-  owner: {fileID: 0}
 --- !u!114 &669618034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,9 +708,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: 
-  setParameter: 0
-  parameter: 
+  eventPath: event:/Interface/DialogueAppear
+  setParameter: 1
+  parameter: DialogueType
   parameterValue: 0
   owner: {fileID: 0}
 --- !u!4 &837583949 stripped
@@ -1747,7 +1730,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 832231904}
-  - {fileID: 639733709}
   - {fileID: 503792339}
   - {fileID: 795348259}
   - {fileID: 1906371743}

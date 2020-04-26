@@ -77,6 +77,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnAnimatorMove()
     {
+        if (Time.timeScale == 0.0f || Time.deltaTime == 0.0f)
+            return;
         // Set the velocity of the nav mesh agent (which is moving the player) based on the speed that the animator would move the player.
         agent.velocity = animator.deltaPosition / Time.deltaTime;
     }
@@ -85,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         // If the nav mesh agent is currently waiting for a path, do nothing.
-        if (agent.pathPending)
+        if (agent.pathPending || Time.timeScale == 0.0f)
             return;
 
         // Cache the speed that nav mesh agent wants to move at.
@@ -173,6 +175,9 @@ public class PlayerMovement : MonoBehaviour
     // This function is called by the EventTrigger on the scene's ground when it is clicked on.
     public void OnGroundClick(BaseEventData data)
     {
+        if (Time.timeScale == 0.0f)
+            return;
+        
         // If the handle input flag is set to false then do nothing.
         if(!handleInput)
             return;
@@ -204,6 +209,8 @@ public class PlayerMovement : MonoBehaviour
     // This function is called by the EventTrigger on an Interactable, the Interactable component is passed into it.
     public void OnInteractableClick(Interactable interactable)
     {
+        if (Time.timeScale == 0.0f)
+            return;
         // If the handle input flag is set to false then do nothing.
         if(!handleInput)
             return;
