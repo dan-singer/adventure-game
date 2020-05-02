@@ -5,7 +5,7 @@
 			<value>Bird</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e6fd22e5-6c6e-4c87-b3bc-d381a598ea50}</destination>
@@ -74,6 +74,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{eff080db-291b-41ae-92dd-57a8a2313a20}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{2f53180a-d11c-4ae5-8843-6387e726004c}</destination>
 		</relationship>
@@ -93,6 +96,9 @@
 	<object class="SoundScatterer" id="{eac3b75f-614a-48c5-b32d-d1a3772b512e}">
 		<property name="length">
 			<value>3.1200000000000001</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>10</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{6e435fb0-b476-4016-be84-0603765cfed6}</destination>
@@ -132,6 +138,7 @@
 	<object class="MixerBusEffectChain" id="{2f53180a-d11c-4ae5-8843-6387e726004c}">
 		<relationship name="effects">
 			<destination>{bc149e81-9b04-46b1-ab3d-8cbda7b76f01}</destination>
+			<destination>{fbe21031-a42d-4485-bfcb-a23058279130}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ea546985-dd0b-4551-b9ed-939ef002c449}" />
@@ -172,6 +179,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{47807299-01cb-4e4e-be5d-92988ccdc829}" />
 	<object class="MixerBusFader" id="{bc149e81-9b04-46b1-ab3d-8cbda7b76f01}" />
+	<object class="SpatialiserEffect" id="{fbe21031-a42d-4485-bfcb-a23058279130}" />
 	<object class="AutomationPoint" id="{8b0b451a-6bec-4a5c-a366-1ee62477504c}">
 		<property name="position">
 			<value>3</value>

@@ -155,6 +155,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-8797732765223338680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DialogueAppear/DialogueType
+  m_EditorClassIdentifier: 
+  Name: DialogueType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-8728513959697052063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637235175333507794
+  lastModified: 637240158738442479
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -410,6 +427,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-7616700279496196447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MarketMusic/MarketMood
+  m_EditorClassIdentifier: 
+  Name: MarketMood
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-7604775758110750626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MarketMusic/MarketMood
+  m_EditorClassIdentifier: 
+  Name: MarketMood
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7586057441491547149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,7 +493,7 @@ MonoBehaviour:
   Path: event:/Paused
   guid: 72c0a61a47d7e14097281de8f8f7e5ba
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -450,6 +501,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &-7341662731416070838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DialogueAppear/DialogueType
+  m_EditorClassIdentifier: 
+  Name: DialogueType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7184247497389036872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,6 +557,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &-7161366271713716023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/GroundType
+  m_EditorClassIdentifier: 
+  Name: GroundType
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-7042923327169050274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DialogueAppear/DialogueType
+  m_EditorClassIdentifier: 
+  Name: DialogueType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6779727987239228053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +765,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-6116015322725276863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GroundClick/ClickType
+  m_EditorClassIdentifier: 
+  Name: ClickType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6065662230663069289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,6 +867,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5801588187673079069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/GroundType
+  m_EditorClassIdentifier: 
+  Name: GroundType
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
 --- !u!114 &-5716356837476377454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,6 +964,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4810
+--- !u!114 &-5319239336294455665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/GroundType
+  m_EditorClassIdentifier: 
+  Name: GroundType
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
 --- !u!114 &-5015473942777563481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,7 +1013,7 @@ MonoBehaviour:
   Path: event:/Effects/SceneTransition
   guid: e58a419ce35cf74890f16a1610dd9ead
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1237,6 +1390,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-3560250127396825912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637240121097229540
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3451266781237535339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1304,12 +1475,12 @@ MonoBehaviour:
   Path: event:/Interface/GroundClick
   guid: 72630566b1124248a1bdec2c709aea06
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 3416445011165556826}
+  - {fileID: 6898886524478130542}
   MinDistance: 0
   MaxDistance: 0
   Length: 1310
@@ -1431,7 +1602,7 @@ MonoBehaviour:
   Path: event:/Effects/CollectCoffee
   guid: 013973307b34d1428bfb1fd3ec4e895a
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1488,12 +1659,12 @@ MonoBehaviour:
   Path: event:/Music/MarketMusic
   guid: a9c95e9728464d4a914cb2fe6aa3b3a6
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -529542117852515952}
+  - {fileID: -7616700279496196447}
   MinDistance: 0
   MaxDistance: 0
   Length: 26181
@@ -1546,7 +1717,7 @@ MonoBehaviour:
   Path: event:/Effects/CollectFish
   guid: 48997c36821a7a40b0f608315d3dc5fb
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1662,7 +1833,7 @@ MonoBehaviour:
   lastModified: 637235175333477866
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1661363536293810114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,6 +1850,24 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
+  Exists: 0
+--- !u!114 &-1651082025822812412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637240113834752239
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-1623225859543596404
 MonoBehaviour:
@@ -1712,7 +1901,7 @@ MonoBehaviour:
   Path: event:/Ambience/SecurityRoomAmbience
   guid: 320148e70cc0a64793f68bc6029150cd
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1720,6 +1909,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10000
+--- !u!114 &-1559816441391116736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637240158738412190
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1547464827849353117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1919,7 +2126,7 @@ MonoBehaviour:
   Path: event:/Effects/CollectCoin
   guid: 19b68f5ec5da9d439ea2acdb29a9c3f1
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1977,7 +2184,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-475857798956703891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2163,7 +2370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -7737441900782266330}
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   EditorEvents:
   - {fileID: -2464150944980187153}
   - {fileID: -638879090496098993}
@@ -2184,10 +2391,10 @@ MonoBehaviour:
   - {fileID: -7381843632108651842}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   StringsBanks:
   - {fileID: -7737441900782266330}
-  stringsBankWriteTime: 637235175333507794
+  stringsBankWriteTime: 637240158738442479
   cacheVersion: 3
 --- !u!114 &23587019003853996
 MonoBehaviour:
@@ -2204,7 +2411,7 @@ MonoBehaviour:
   Path: event:/Ambience/MarketAmbience
   guid: 95ffde9b8186a84baa6dd348cc4153f5
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2245,7 +2452,7 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &247999766953555292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2493,7 +2700,7 @@ MonoBehaviour:
   Path: event:/Dialogue/Snoring
   guid: da43a066cd5f4b40b3505b638f731693
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2501,6 +2708,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11888
+--- !u!114 &1383671631352152732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GroundClick/ClickType
+  m_EditorClassIdentifier: 
+  Name: ClickType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &1513381619486984953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2606,7 +2830,7 @@ MonoBehaviour:
   Path: event:/Effects/Win
   guid: 51dd4cc2b6123e4eb40e5de9abc23973
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2646,12 +2870,12 @@ MonoBehaviour:
   Path: event:/Effects/Footsteps
   guid: 77412d04249a204baeb4dcb437171e38
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 58193678449193706}
+  - {fileID: 7414996826175065619}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -2854,6 +3078,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1310
+--- !u!114 &2309418034291139185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MarketMusic/MarketMood
+  m_EditorClassIdentifier: 
+  Name: MarketMood
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &2406094361772224515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2925,7 +3166,7 @@ MonoBehaviour:
   Path: event:/Dialogue/Argument
   guid: 56a94cb1328aeb4fbb532dd8e3d38a0c
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -3035,7 +3276,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3547225274625388066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3069,7 +3310,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3622499660231151001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3205,13 +3446,13 @@ MonoBehaviour:
   Path: event:/Effects/Bird
   guid: 9ec97f01c2bf434f8ce0cac77533d0c5
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
+  MinDistance: 1
+  MaxDistance: 20
   Length: 3125
 --- !u!114 &4251017425327118367
 MonoBehaviour:
@@ -3228,12 +3469,12 @@ MonoBehaviour:
   Path: event:/Interface/DialogueAppear
   guid: 74851848ece53e4aad46df761ad9f71a
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 3584945316562482822}
+  - {fileID: -8797732765223338680}
   MinDistance: 0
   MaxDistance: 0
   Length: 41273
@@ -3391,6 +3632,58 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
+--- !u!114 &5083053310141953711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DialogueAppear/DialogueType
+  m_EditorClassIdentifier: 
+  Name: DialogueType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5114325655912514487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MarketMusic/MarketMood
+  m_EditorClassIdentifier: 
+  Name: MarketMood
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5192904463883940012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637240114760706885
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5346756978414514598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3545,7 +3838,7 @@ MonoBehaviour:
   Path: event:/Effects/GlassesDrop
   guid: 8bce2bc4f8f73448a4932be8ca449992
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3657,6 +3950,23 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
+--- !u!114 &6898886524478130542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GroundClick/ClickType
+  m_EditorClassIdentifier: 
+  Name: ClickType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &7008937166982891965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3726,6 +4036,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &7414996826175065619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/GroundType
+  m_EditorClassIdentifier: 
+  Name: GroundType
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
 --- !u!114 &7425364128454232497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3801,6 +4128,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7845584094050080148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GroundClick/ClickType
+  m_EditorClassIdentifier: 
+  Name: ClickType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8208606170221883845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3868,7 +4212,7 @@ MonoBehaviour:
   Path: snapshot:/Paused
   guid: 3a6d104879429e428bffbc6c62a802d7
   Banks:
-  - {fileID: -1683624430083505991}
+  - {fileID: -1559816441391116736}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
